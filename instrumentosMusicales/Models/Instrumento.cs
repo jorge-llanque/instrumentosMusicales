@@ -11,6 +11,7 @@ namespace instrumentosMusicales.Models
         public string Name { get; set; }
         public string Marca { get; set; }
         public string Modelo { get; set; }
+        public int TipoInstrumentoId { get; set; }
         public virtual TipoInstrumento TipoInstrumento { get; set; }
 
     }
